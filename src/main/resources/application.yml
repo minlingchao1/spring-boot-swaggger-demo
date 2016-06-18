@@ -1,0 +1,14 @@
+spring:
+  swagger:
+    apiinfo:
+       title: Spring Boot 测试
+       version: 1.0
+       description: Spring Boot 测试
+       termsOfServiceUrl: www.dingdongcloud.com
+       contact: 杭州云贝网络科技有限公司
+       license: 云贝
+       licenseUrl: www.dingdongcloud.com  
+    docket:
+       groupName: test
+       pathMapping: /
+       pathRegex: /.*
